@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 //Sliding Window approach 
+// https://www.geeksforgeeks.org/chocolate-distribution-problem/
+
 int minChocolateDistribution(vector<int>&arr, int m){
     sort(arr.begin(), arr.end()); 
     int minDiff = INT_MAX; 

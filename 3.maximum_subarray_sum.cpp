@@ -2,6 +2,7 @@
 #include<vector>
 using namespace std;
 //Kadane's Algorithm 
+// https://www.youtube.com/watch?v=AHZpyENo7k4
 int maxSubArray(int nums[] , int n ) {
         int maxSum = INT_MIN; 
         int sum =0 ; 

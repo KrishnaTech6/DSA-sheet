@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+// https://chatgpt.com/share/6786997f-d78c-800e-a2d9-a43b569c042e
 void generateSubsets(vector<int>& arr, int m) {
     // Total number of subsets is 2^m
     int totalSubsets = 1 << m;
