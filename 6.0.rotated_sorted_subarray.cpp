@@ -41,6 +41,7 @@ using namespace std;
         }
         return -1 ; 
     }
+    
     int search(vector<int>& nums, int target) {
         int pivot = getPivot(nums); 
         int n = nums.size();
@@ -50,7 +51,6 @@ using namespace std;
             return binarySearch(nums, 0, pivot-1 , target);
         }
     }
-
 
  
 int main()
